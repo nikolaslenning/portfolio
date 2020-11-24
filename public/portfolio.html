@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS Link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <title>Responsive Portfolio</title>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Navbar Component Bootstrap CSS -->
+    <div class="container-fluid ml-0 pl-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <div class="nav-name">
+                <a style="text-decoration : none" href="./index.html">
+                    <h1 class="h1">Nikolas Lenning</h1>
+                </a>
+                <h4>Full Stack Developer</h4>
+            </div>
+
+            <button class="navbar-toggler ml-auto " type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto float-right">
+                    <a class="nav-item nav-link passive" href="./index.html"><i class="fas fa-user-ninja"
+                            style="color:rebeccapurple"></i> About</a>
+                    <a class="nav-item nav-link active" href="./portfolio.html"><i class="fas fa-briefcase"
+                            style="color: saddlebrown"></i>
+                        Portfolio</a>
+                    <a class="nav-item nav-link passive" href="./skills.html"><i class="fas fa-laptop-code"
+                            style="color: hotpink"></i>
+                        Skills<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link passive" href="./images/resume.pdf"><i class="fas fa-file-alt"
+                            style="color: turquoise"></i> Resume</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--Grid layout Bootstrap CSS Placeholder Images -->
+    <section class="container-fluid d-block justify-content-start">
+        <div class="row pb-2">
+            <h1 class="col-lg-12 page-title pt-5">Portfolio</h1>
+        </div>
+
+        <!-- https://3dtransforms.desandro.com/card-flip Card Flip CSS source -->
+        <div class="row justify-content-between">
+
+            <div class="scene col-12 col-md-6 col-lg-4">
+                <div class="card card-border">
+                    <div class="card-body card__face card__face--front">
+                        <img class="card-img border border-light" style="max-width: 600px; max-height: 300px;"
+                            src="images/emote.png" alt="Emote app screenshot">
+
+                        <h4 class="pt-2 font-weight-bold">Emote</h4>
+                        <p class="card-text">App that returns numerical data identifying the socially-perceived emotions found within the image. This data response can assist users with Autism Spectrum Disorder to better understand and interpret facial emotions.</p>
+                    </div>
+
+                    <div class="card__face card__face--back">
+                        <h4 class="p-2">Accomplishments</h4>
+                        <ul>
+                            <li>Built with Node.js back-end</li>
+                            <li>Express web framework to structure and organize app</li>
+                            <li>MySQL backed Database with a Sequelize ORM</li>
+                            <li>Utilized Handlebars template engine</li>
+                            <li>Integrated Imgur and Microsoft Face API</li>
+                            <li>Model-View-Controller design pattern</li>
+                            <li>Bootstrap CSS front-end</li>
+
+                        </ul>
+                        <div class="card-links card-footer fixed-bottom">
+                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                href="https://intense-chamber-80785.herokuapp.com" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                href="https://github.com/nikolaslenning/Grocery-Guys" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scene col-12 col-md-6 col-lg-4">
+                <div class="card card-border">
+                    <div class="card-body card__face card__face--front">
+                        <img class="card-img border border-light" style="max-width: 600px; max-height: 300px;"
+                            src="images/burger.png" alt="Burger Bonanza app screenshot">
+
+                        <h4 class="pt-2 font-weight-bold">Burger Bonanza</h4>
+                        <p class="card-text">App that lets users input the names of burgers they'd like to eat. Every burger is stored in a database, whether devoured or not.</p>
+                    </div>
+
+                    <div class="card__face card__face--back">
+                        <h4 class="p-2">Accomplishments</h4>
+                        <ul>
+                            <li>Built with Node.js back-end</li>
+                            <li>Express web framework to structure and organize app</li>
+                            <li>Database managed using MySQL</li>
+                            <li>Utilized Handlebars template engine</li>
+                            <li>Model-View-Controller design pattern</li>
+                            <li>Bootstrap CSS front-end</li>
+
+                        </ul>
+                        <div class="card-links card-footer fixed-bottom">
+                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                href="https://whispering-anchorage-18340.herokuapp.com/" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                href="https://github.com/nikolaslenning/Burger-Bonanza" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scene col-12 col-md-6 col-lg-4">
+                <div class="card card-border">
+                    <div class="card-body card__face card__face--front">
+                        <img class="card-img border border-light" src="images/whatnextscreenshot.png"
+                            alt="WhatNext screenshot">
+                        <h4 class="pt-2 font-weight-bold">WhatsNext</h4>
+                        <p class="card-text">Web app where users can explore and save incoming and outgoing Netflix
+                            titles based on date.</p>
+                    </div>
+
+                    <div class="card__face card__face--back">
+                        <h4 class="p-2">Accomplishments</h4>
+                        <ul>
+                            <li>Built with jQuery back-end</li>
+                            <li>UIKit CSS front-end</li>
+                            <li>Client-side rendering (AJAX)</li>
+                            <li>Integrated uNoGs & OMDBi APIs</li>
+                        </ul>
+                        <div class="card-footer fixed-bottom position-absolute">
+                            <a class="btn btn-floating rounded-circle btn-large card-links"
+                                href="https://nikolaslenning.github.io/WhatsNext/" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                            <a class="btn btn-floating rounded-circle btn-large card-links"
+                                href="https://github.com/nikolaslenning/WhatsNext" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scene col-12 col-md-6 col-lg-4">
+                <div class="card card-border">
+                    <div class="card-body card__face card__face--front">
+                        <img class="card-img border border-light" src="images/weather.png"
+                            alt="weather dashboard screenshot">
+
+                        <h4 class="pt-2 font-weight-bold">Weather Dashboard</h4>
+                        <p class="card-text">Web app the displays the current weather as well as a 5 day forcast for any
+                            city the user searches for. </p>
+                    </div>
+
+                    <div class="card__face card__face--back">
+                        <h4 class="p-2">Accomplishments</h4>
+                        <ul>
+                            <li>Built with jQuery back-end</li>
+                            <li>Bootstrap CSS front-end</li>
+                            <li>Client-side rendering (AJAX)</li>
+                            <li>Integrated Open Weather API</li>
+                        </ul>
+                        <div class="card-links card-footer fixed-bottom">
+                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                href="https://nikolaslenning.github.io/weather-dashboard/" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                href="https://github.com/nikolaslenning/weather-dashboard" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scene col-12 col-md-6 col-lg-4">
+                <div class="card card-border">
+                    <div class="card-body card__face card__face--front">
+                        <img class="card-img border border-light" src="images/dayplanner.png"
+                            alt="weather dashboard screenshot">
+
+                        <h4 class="pt-2 font-weight-bold">Day Planner</h4>
+                        <p class="card-text">Repository that allows the user to save events for each hour of the work
+                            day while dynamically updating the date and time. </p>
+                    </div>
+
+                    <div class="card__face card__face--back">
+                        <h4 class="p-2">Accomplishments</h4>
+                        <ul>
+                            <li>Built with jQuery back-end</li>
+                            <li>Bootstrap CSS front-end</li>
+                            <li>Client-side rendering (AJAX)</li>
+                            <li>Integrated Moment.js API</li>
+                        </ul>
+                        <div class="card-links card-footer fixed-bottom">
+                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                href="https://nikolaslenning.github.io/day-planner/" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                href="https://github.com/nikolaslenning/day-planner" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="scene col-12 col-md-6 col-lg-4">
+                <div class="card card-border">
+                    <div class="card-body card__face card__face--front">
+                        <img class="card-img border border-light" style="max-width: 600px; max-height: 300px;"
+                            src="images/passwordgen.png" alt="weather dashboard screenshot">
+
+                        <h4 class="pt-2 font-weight-bold">Password Generator</h4>
+                        <p class="card-text">Web app that generates a random password based on user-selected criteria
+                            resulting in a dynamic and interactive experience for the user. </p>
+                    </div>
+
+                    <div class="card__face card__face--back">
+                        <h4 class="p-2">Accomplishments</h4>
+                        <ul>
+                            <li>Built with JavaScript back-end</li>
+                            <li>Styled using CSS</li>
+
+                        </ul>
+                        <div class="card-links card-footer fixed-bottom">
+                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                href="https://nikolaslenning.github.io/password-generator/" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                href="https://github.com/nikolaslenning/password-generator" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- Footer Card Component Bootstrap CSS-->
+    <footer class="container">
+        <div class="row">
+            <div class="footer col-12 fixed-bottom text-center w-100">
+                <div class="card-class card text-center rounded-0">
+                    <h6 class="card-footer text-muted"> &copy;Copyright</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Javascript Bootstrap CSS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src='./js/index.js'></script>
+</body>
+
+</html>

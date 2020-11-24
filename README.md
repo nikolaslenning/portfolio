@@ -1,9 +1,9 @@
-# Responsive Portfolio
+# Portfolio
 ![GitHub top language](https://img.shields.io/github/languages/top/nikolaslenning/responsive-portfolio)
 
 Responsive Portfolio is a repository where I have created my own personal mobile responsive portfolio using Bootstrap CSS Framework to minimize the use of media queries. My page renders well on a variety of devices and screen sizes, this is accomplished through a responsive layouts. 
 
-![Webpage screenshot](Assets/Images/screenshot.png)
+![Webpage screenshot](images/screenshot.png)
 
 [Bootstrap CSS Framework](https://getbootstrap.com/) was used.
 
